@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/product_header_background"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="2">
+
+    <TextView
+        android:id="@+id/product_header_name_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:gravity="start|center_vertical"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:background="@drawable/header_background_shape"/>
+
+    <TextView
+        android:id="@+id/product_header_price_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:gravity="start|center_vertical"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:background="@drawable/header_background_shape"/>
+
+</LinearLayout>

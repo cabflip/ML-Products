@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ML Products</string>
+    <string name="query_field">Query</string>
+    <string name="search_field">Search</string>
+    <string name="results_field">Results for:&#160;</string>
+
+    <string name="product_name_title">Product</string>
+    <string name="product_price_title">Price</string>
+
+    <string name="no_products_found">No products were found.
+        Check the query or your connection and try again.</string>
+
+
+
+</resources>
